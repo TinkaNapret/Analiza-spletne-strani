@@ -2,15 +2,13 @@ import requests
 import os
 import re
 import sys
-
+# koda bo najprej shranila vseh 9 spletnih strani, nato pa se bo sprehajala po teh straneh in jemala html-povezave do posameznih knjig
 def pripravi_imenik(ime_datoteke):
-    '''Če še ne obstaja, pripravi prazen imenik za dano datoteko.'''
     imenik = os.path.dirname(ime_datoteke)
     if imenik:
         os.makedirs(imenik, exist_ok=True)
 
 def shrani_spletno_stran(url, ime_datoteke, vsili_prenos=False):
-    '''Vsebino strani na danem naslovu shrani v datoteko z danim imenom.'''
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
