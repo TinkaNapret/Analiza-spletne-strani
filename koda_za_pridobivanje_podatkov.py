@@ -4,7 +4,7 @@ import json
 import os
 import csv
 
-# Regularni izrazi
+# regularne izraze sem znala narediti samo na ta način, saj mi tisti ki zajame vse v enem ni delal
 vzorec_naslov = re.compile(r'<h1 class=".*?">(.*?)</h1>')
 vzorec_avtor = re.compile(r'<span class="ContributorLink__name" data-testid="name">(.*?)</span>')
 vzorec_leto = re.compile(r'<p data-testid="publicationInfo">.*?(\d{4})</p>')
@@ -40,7 +40,10 @@ def poberi_podatke(pot_datoteke):
     zanri = zanri[:4]
 
     naslov = html.unescape(naslov)
-    opis = re.sub(r'</?i>', '', re.sub(r'<.*?>', '', html.unescape(opis).replace("<br />", "").strip())).replace('\n', '').strip()
+    
+    def počisti(opis):
+        return re.sub(r'</?i>|<br\s*/?>|<.*?>', '', html.unescape(opis)).replace('\n', '').strip()
+    opis = počisti(opis)
 
     return {
         "naslov": naslov,
