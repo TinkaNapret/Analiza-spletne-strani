@@ -17,4 +17,4 @@ Pri analizi sem:
      - koliko strani imajo knjige v povprečju
      - ocene knjig z manj kot 1000 stranmi
 
-* Za analizo žanrov sem pri vsaki knjigi vzela samo 4 žanre, saj jih je bilo drugače preveč in funkcije pri analizi niso delovale pravilno.
+*Za analizo žanrov sem pri vsaki knjigi vzela samo 4 žanre, saj jih je bilo drugače preveč in funkcije pri analizi niso delovale pravilno.
