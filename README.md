@@ -13,7 +13,7 @@ Pri analizi sem:
      - koliko knjig so izdali avtorji
      - za 10 avtorjev z največ knjigami, njihovo povprečno oceno
   - analizirala število strani:
-     - knjiga z največ in najmnj stranmi
+     - knjiga z največ in najmanj stranmi
      - koliko strani imajo knjige v povprečju
      - ocene knjig z manj kot 1000 stranmi
 
