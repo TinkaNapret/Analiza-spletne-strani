@@ -1,5 +1,5 @@
 # Analiza-spletne-strani
-Pri tej seminarski nalogi bom analizirala spletno stran Goodreads. Za analizo sem vzela knjige, ki imajo oceno vsaj 4.2 in vsaj 1000 glasov. Na tej spletni strani je bilo 896 takšnih knjig in zajela sem vse. Za vsako knjigo sem morala odpreti še dodatno spletno stran (koda za odpiranje in shranjevanje spletnih strani je shranjena kor shrani_spletne_strani.py) in nato sem te html povezave shranila v mapo html_knjige.
+Pri tej seminarski nalogi bom analizirala spletno stran Goodreads. Za analizo sem vzela knjige, ki imajo oceno vsaj 4.2 in vsaj 1000 glasov. Na tej spletni strani je bilo 896 takšnih knjig in zajela sem vse. Za vsako knjigo sem morala odpreti še dodatno spletno stran (koda za odpiranje in shranjevanje spletnih strani je shranjena kot shrani_spletne_strani.py) in nato sem te html povezave shranila v mapo html_knjige.
 Pri analizi sem:
  - analizirala po letu izida:
      - koliko knjig je izšlo v posameznem letu
