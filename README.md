@@ -6,7 +6,7 @@ Pri analizi sem:
      - koliko knjig je izšlo pred in po letu 2000 in kdaj jih je bilo več
      - povprečne ocene knjig na leto
      - v katerem tisočletju so izšle boljše knjige
- - analizirala žanre *:
+ - analizirala žanre*:
      - koliko različnih žanrov je in koliko knjig je določenega žanra
      - povprečno oceno žanra
   - analizirala avtorje:
